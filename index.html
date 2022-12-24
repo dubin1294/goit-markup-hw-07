@@ -18,7 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body>
@@ -26,35 +27,35 @@
 
     <header class="header">
       <div class="container-header container">
-        <nav class="header-nav">
+        <nav class="navigation">
           <a href="index.html" class="header-logo"> <span class="logo">Web</span>Studio</a>
 
           <!--Навігація на інші сторінки-->
 
-          <ul class="header-nav-items">
-            <li class="header-nav-item">
-              <a class="header-link current link" href="index.html">Студія</a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link current link" href="index.html">Студія</a>
             </li>
-            <li class="header-nav-item">
-              <a class="header-link link" href="portfolio.html">Портфоліо</a>
+            <li class="navigation__item">
+              <a class="navigation__link link" href="portfolio.html">Портфоліо</a>
             </li>
-            <li class="header-nav-item">
-              <a class="header-link link" href="http://контакти">Контакти</a>
+            <li class="navigation__item">
+              <a class="navigation__link link" href="http://контакти">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact-items">
-          <li class="contact-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com"
-              ><svg class="icon-contact" width="16" height="12">
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a class="contact__link link" href="mailto:info@devstudio.com"
+              ><svg class="contact__icon" width="16" height="12">
                 <use href="./imeges/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-item">
-            <a class="contact-link link" href="tel:+380961111111"
-              ><svg class="icon-contact" width="10" height="16">
+          <li class="contact__item">
+            <a class="contact__link link" href="tel:+380961111111"
+              ><svg class="contact__icon" width="10" height="16">
                 <use href="./imeges/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -64,12 +65,13 @@
       </div>
     </header>
     <main class="main-studio">
+
       <!--Слонаг Компанії-->
 
       <section class="hero section">
-        <div class="hero-overlay">
+        <div class="hero__overlay">
           <div class="container">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
             <button class="button" type="button" data-modal-open>Замовити послугу</button>
           </div>
         </div>
@@ -80,14 +82,13 @@
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="feature-items">
-            <li class="feature-item">
+          <ul class="feature__list">
+            <li class="feature__item">
               <div class="icon-container">
                 <svg class="icon-feature" width="70" height="70">
                   <use href="./imeges/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-
               <h3 class="feature-title">увага до деталей</h3>
               <p class="feature-article">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.

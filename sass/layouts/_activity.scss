@@ -1,0 +1,38 @@
+.work {
+  padding-top: 0;
+}
+
+.activity-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.activity-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-item:not(:last-child) {
+  margin-right: 30px;
+}
+.acyivity-thumb {
+  position: relative;
+  width: 370px;
+}
+
+.activity-article {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 27px 0;
+  bottom: 0;
+  color: var(--third-color);
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+}
