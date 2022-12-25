@@ -22,7 +22,7 @@
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: border 250ms var $timing-function, fill 250ms var $timing-function;
+  transition: border 250ms $timing-function, fill 250ms $timing-function;
   &:hover,
   &:focus {
   border-color: $accent-color;

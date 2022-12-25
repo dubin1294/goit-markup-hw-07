@@ -1,11 +1,6 @@
-body { 
-    @font-face {
-    font-family:'Roboto', 'sans-serif ';
-    font-size: 14px;
-    src: url(/fonts/roboto-v30-latin-regular.ttf),
-    url(/fonts/roboto-v30-latin-regular.eot),
-    url(/fonts/roboto-v30-latin-regular.woff);
- }
+body {
+  font-family: 'Roboto', 'sans-serif ';
+  font-size: 14px;
   background-color: $third-color;
   color: $primary-color;
   letter-spacing: 0.03em;

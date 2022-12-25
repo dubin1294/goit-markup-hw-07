@@ -20,17 +20,13 @@
 }
 
 }
-
-
 .button-items {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  @include centeredFlex;
   margin-bottom: 50px;
   cursor: pointer;
-  &:not(:last-child) {
-  padding-right: 8px;
 }
+.button-item:not(:last-child) {
+  padding-right: 8px;
 }
 .portfolio-items {
   display: flex;

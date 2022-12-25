@@ -314,16 +314,11 @@ template {
   src: url(/fonts/roboto-v30-latin-regular.ttf), url(/fonts/roboto-v30-latin-regular.eot), url(/fonts/roboto-v30-latin-regular.woff);
 }
 body {
+  font-family: "Roboto", "sans-serif ";
+  font-size: 14px;
   background-color: #ffffff;
   color: #212121;
   letter-spacing: 0.03em;
-}
-@font-face {
-  body {
-    font-family: "Roboto", "sans-serif ";
-    font-size: 14px;
-    src: url(/fonts/roboto-v30-latin-regular.ttf), url(/fonts/roboto-v30-latin-regular.eot), url(/fonts/roboto-v30-latin-regular.woff);
-  }
 }
 
 img {
@@ -602,7 +597,7 @@ h3 {
   padding: 27px 0;
   bottom: 0;
   color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
+  background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   line-height: 1.2;
   text-align: center;
@@ -707,7 +702,7 @@ h3 {
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: border 250ms var cubic-bezier(0.4, 0, 0.2, 1), fill 250ms var cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers__link:hover, .customers__link:focus {
   border-color: #2196f3;
@@ -733,6 +728,14 @@ h3 {
   text-decoration: none;
   display: block;
   margin-bottom: 20px;
+}
+.footer__logo .logo {
+  align-items: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
 }
 
 .container__address {
@@ -812,7 +815,7 @@ h3 {
   fill: #ffffff;
 }
 
-.mailing__list {
+.mailing {
   margin-left: 93px;
 }
 
@@ -882,12 +885,13 @@ h3 {
 
 .button-items {
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   margin-bottom: 50px;
   cursor: pointer;
 }
-.button-items:not(:last-child) {
+
+.button-item:not(:last-child) {
   padding-right: 8px;
 }
 

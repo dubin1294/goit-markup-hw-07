@@ -9,7 +9,7 @@
 }
 
 .footer__logo {
-  color: $third-color;
+  color:$third-color;
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.2;
@@ -17,6 +17,14 @@
   text-decoration: none;
   display: block;
   margin-bottom: 20px;
+  .logo {
+  align-items: center;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: $accent-color;
+  }
 }
 
 .container__address {
@@ -91,10 +99,9 @@
 .social__icon {
   fill: $third-color;
 }
-.mailing__list {
+.mailing{
   margin-left: 93px;
 }
-
 .mailing__title {
   font-size: 14px;
   text-transform: uppercase;
