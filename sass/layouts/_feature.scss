@@ -1,28 +1,13 @@
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-  opacity: 0;
-}
-
 .feature__list {
   display: flex;
-  .feature__item {
+}
+.feature__item {
   width: 270px;
-}
-}
-.feature__item:not(:last-child) {
+  &:not(:last-child) {
   margin-right: 30px;
 }
-
-.icon-container {
+}
+.icon{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,14 +18,15 @@
   margin-bottom: 30px;
 }
 
-.feature-title {
+.feature__title {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.1;
   margin-bottom: 10px;
 }
 
-.feature-article {
+.feature__article {
   line-height: 1.71;
   color: $second-color;
+  
 }

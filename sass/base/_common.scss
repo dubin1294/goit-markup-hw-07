@@ -1,7 +1,12 @@
-body {
-  font-family: 'Roboto', 'sans-serif ';
+body { 
+    @font-face {
+    font-family:'Roboto', 'sans-serif ';
+    font-size: 14px;
+    src: url(/fonts/roboto-v30-latin-regular.ttf),
+    url(/fonts/roboto-v30-latin-regular.eot),
+    url(/fonts/roboto-v30-latin-regular.woff);
+ }
   background-color: $third-color;
-  font-size: 14px;
   color: $primary-color;
   letter-spacing: 0.03em;
 }
@@ -29,7 +34,7 @@ img {
 .section {
   padding: 94px 0;
 }
-.section-title {
+.section__title {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;

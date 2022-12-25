@@ -1,8 +1,10 @@
 @import './base/normalize';
-@import './utils/vars';
+@import './utils/variables';
+@import './utils/mixin';
 
 @import './base/common';
 @import './base/reset';
+@import './base/hidden';
 
 @import './layouts/header';
 @import './layouts/hero';
@@ -12,4 +14,4 @@
 @import './layouts/customers';
 @import './layouts/footer';
 @import './layouts/portfolio';
-@import './layouts/.modal';
+@import './layouts/modal';

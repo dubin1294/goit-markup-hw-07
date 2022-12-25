@@ -40,12 +40,13 @@
   line-height: 1.1;
   color: $primary-color;
   transition: color 250ms $timing-function;
-}
-.navigation__link.current {
+  &.current {
   position: relative;
   color: $accent-color;
   padding: 32px 0;
 }
+}
+
 .current::after {
   position: absolute;
   content: '';

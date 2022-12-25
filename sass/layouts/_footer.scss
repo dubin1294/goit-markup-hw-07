@@ -8,7 +8,7 @@
   padding: 60px 0;
 }
 
-.footer-logo {
+.footer__logo {
   color: $third-color;
   font-family: 'Raleway';
   font-size: 26px;
@@ -19,39 +19,39 @@
   margin-bottom: 20px;
 }
 
-.container-address {
+.container__address {
   min-width: 231px;
 }
 
-.address-items {
+.address__list {
   padding: 0;
 }
 
-.address-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-link {
+.address__link {
   font-style: normal;
   line-height: 1.7;
   text-decoration-line: none;
   color: $third-color;
-  transition: color 250ms $iming-function;
+  transition: color 250ms $timing-function;
 }
 
-.footer-link {
+.footer__link {
   font-style: normal;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms $timing-function;
 }
 
-.socials-link {
+.socials {
   display: inline-block;
   margin-left: 70px;
 }
 
-.join-in {
+.join__in {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -60,24 +60,21 @@
   margin-bottom: 20px;
 }
 
-.social-list {
-  display: flex;
+.social__list {
+ @include centeredFlex;
 }
-
-.social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-item {
+.social__item {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
   justify-content: center;
   border-radius: 50%;
   align-items: center;
+  &:not(:last-child) {
+  margin-right: 10px;
 }
-
-.social-link {
+}
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,25 +88,25 @@
   }
 }
 
-.social-icon {
+.social__icon {
   fill: $third-color;
 }
-.mailing-list {
+.mailing__list {
   margin-left: 93px;
 }
 
-.mailing-title {
+.mailing__title {
   font-size: 14px;
   text-transform: uppercase;
   color: $third-color;
   margin-bottom: 20px;
 }
 
-.email-form {
+.email__form {
   display: flex;
 }
 
-.email-icon {
+.email__icon {
   color: $third-color;
   width: 358px;
   height: 50px;
@@ -120,7 +117,7 @@
   outline: none;
   padding: 15px 0 15px 16px;
 }
-.submit-btn {
+.submit__btn {
   display: flex;
   align-items: center;
   min-width: 200px;
@@ -138,6 +135,6 @@
   border: none;
 }
 
-.icon-submit {
+.icon__submit {
   margin-left: 10px;
 }

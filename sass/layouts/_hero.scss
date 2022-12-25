@@ -11,18 +11,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  .hero__title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    width: 696px;
-    letter-spacing: 0.06em;
-    padding-top: 200px;
-    text-transform: uppercase;
-    margin: 0 auto;
-    color: $third-color;
-  }
+}
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  width: 696px;
+  letter-spacing: 0.06em;
+  padding-top: 200px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: $third-color;
 }
 .button {
   background-color: $accent-color;
