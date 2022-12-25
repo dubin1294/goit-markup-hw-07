@@ -38,7 +38,7 @@
   text-decoration-line: none;
   font-weight: 500;
   line-height: 1.1;
-  color: var(--primary-color);
+  color: $primary-color;
   transition: color 250ms $timing-function;
 }
 .navigation__link.current {

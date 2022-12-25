@@ -23,11 +23,11 @@
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: border 250ms var(--timing-function), fill 250ms var(--timing-function);
+  transition: border 250ms var $timing-function, fill 250ms var $timing-function;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  border-color: $accent-color;
+  fill: $accent-color;
 }

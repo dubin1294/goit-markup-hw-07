@@ -9,7 +9,7 @@
 }
 
 .footer-logo {
-  color: var(--third-color);
+  color: $third-color;
   font-family: 'Raleway';
   font-size: 26px;
   line-height: 1.2;
@@ -35,15 +35,15 @@
   font-style: normal;
   line-height: 1.7;
   text-decoration-line: none;
-  color: var(--third-color);
-  transition: color 250ms var(--timing-function);
+  color: $third-color;
+  transition: color 250ms $iming-function;
 }
 
 .footer-link {
   font-style: normal;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 }
 
 .socials-link {
@@ -56,7 +56,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--third-color);
+  color: $third-color;
   margin-bottom: 20px;
 }
 
@@ -84,18 +84,16 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: background-color 250ms var(--timing-function);
+  transition: background-color 250ms $timing-function;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .social-icon {
-  fill: var(--third-color);
+  fill: $third-color;
 }
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
-}
-
 .mailing-list {
   margin-left: 93px;
 }
@@ -103,7 +101,7 @@
 .mailing-title {
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--third-color);
+  color: $third-color;
   margin-bottom: 20px;
 }
 
@@ -112,7 +110,7 @@
 }
 
 .email-icon {
-  color: var(--third-color);
+  color: $third-color;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -122,7 +120,6 @@
   outline: none;
   padding: 15px 0 15px 16px;
 }
-
 .submit-btn {
   display: flex;
   align-items: center;
@@ -133,8 +130,8 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  color: var(--third-color);
-  background-color: var(--accent-color);
+  color: $third-color;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
