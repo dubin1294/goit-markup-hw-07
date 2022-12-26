@@ -11,3 +11,20 @@ h2,
 h3 {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link {
+  text-decoration-line: none;
+  &:focus {
+    color: $accent-color;
+  }
+
+  &:hover {
+    color: $accent-color;
+    cursor: pointer;
+  }
+}
+
